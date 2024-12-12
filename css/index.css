@@ -31,7 +31,7 @@
     --footer-link-active-color: #f1c40f; /* Darker amber for active footer links */
 
     --header-bg: #ecf0f1; /* Light gray background for the header */
-    --hero-gradient: #fcfcfc; /* Bright gradient from amber to soft yellow */
+    --hero-gradient: linear-gradient(120deg, #fcfcfc, #fcfcfc);
     --hero-bg-img: url("../assets/images/background/dots-dark.svg"); /* Light and airy dots background */
 }
 

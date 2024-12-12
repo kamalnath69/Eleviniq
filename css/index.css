@@ -6,20 +6,20 @@
     --primary-text-color: #2c3e50; /* Dark blue-gray for clear, readable text */
     --bg-color: #ffffff; /* Clean white background for a fresh, modern feel */
 
-    --btn-color: #ffffff; /* White button text */
-    --btn-bg: #f39c12; /* Bright amber for buttons, giving them energy */
-    --btn-hover-bg: #ff7700; /* Darker amber for button hover effect */
+    --btn-color: #2c3e50; /* White button text */
+    --btn-bg: #f5d451; /* Bright amber for buttons, giving them energy */
+    --btn-hover-bg: #f1c40f; /* Darker amber for button hover effect */
 
-    --header-link-hover: #f39c12; /* Amber for hover links to match button */
-    --header-link-hover-bg: #ffedca; /* Light yellow background for hover effect */
-    --header-link-active-color: #e67e22; /* Darker amber for active link color */
+    --header-link-hover: #000000; /* Amber for hover links to match button */
+    --header-link-hover-bg: #f5d451; /* Light yellow background for hover effect #e8e6db */
+    --header-link-active-color: #f1c40f; /* Darker amber for active link color */
     
-    --input-hover-bd-color: #e67e22; /* Amber border for input fields on hover */
+    --input-hover-bd-color: #000000; /* Amber border for input fields on hover */
     --input-hover-bg: #f7f7f7; /* Light gray background for input fields on hover */
 
     --dropdown-bg: #ffffff; /* Crisp white background for dropdowns */
     --dropdown-hover-bg: #f8f8f8; /* Very light gray hover effect for dropdown items */
-    --dropdown-hover-color: #f39c12; /* Amber text color for dropdown hover items */
+    --dropdown-hover-color: #f5d451; /* Amber text color for dropdown hover items */
 
     --faq-h-text: #34495e; /* Dark slate gray for FAQ headers */
     --faq-content-text: #7f8c8d; /* Light gray for FAQ content text */
@@ -27,8 +27,8 @@
     --hr-color: #ecf0f1; /* Very light gray for horizontal rules for a clean line */
 
     --footer-link: #7f8c8d; /* Light gray for footer links */
-    --footer-link-hover: #ff9d00; /* Amber for hover footer links */
-    --footer-link-active-color: #e67e22; /* Darker amber for active footer links */
+    --footer-link-hover: #f5d451; /* Amber for hover footer links */
+    --footer-link-active-color: #f1c40f; /* Darker amber for active footer links */
 
     --header-bg: #ecf0f1; /* Light gray background for the header */
     --hero-gradient: #fcfcfc; /* Bright gradient from amber to soft yellow */
@@ -41,8 +41,8 @@
     --bg-color: #2c3e50; /* Deep navy blue for contrast */
 
     --btn-color: #2c3e50; /* Dark blue button text */
-    --btn-bg: #f39c12; /* Bright amber for button background */
-    --btn-hover-bg: #e67e22; /* Darker amber for button hover effect */
+    --btn-bg: #f5d451; /* Bright amber for button background */
+    --btn-hover-bg: #f1c40f; /* Darker amber for button hover effect */
 
     --header-link-hover: #f39c12; /* Amber for hover links in dark mode */
     --header-link-hover-bg: #34495e; /* Dark slate background for hover effects */
@@ -53,7 +53,7 @@
 
     --dropdown-bg: #34495e; /* Dark slate gray dropdown background */
     --dropdown-hover-bg: #2c3e50; /* Deeper blue-gray for hover effects */
-    --dropdown-hover-color: #f39c12; /* Amber text color for dropdown hover items */
+    --dropdown-hover-color: #f1c40f; /* Amber text color for dropdown hover items */
 
     --faq-h-text: #ffffff; /* Bright white for FAQ headers */
     --faq-content-text: #f1c40f; /* Bright yellow for FAQ content text */
@@ -61,8 +61,8 @@
     --hr-color: #34495e; /* Slate gray for horizontal rules */
 
     --footer-link: #bdbdbd; /* Soft gray for footer links */
-    --footer-link-hover: #ff9d00; /* Amber for hover footer links */
-    --footer-link-active-color: #e67e22; /* Darker amber for active footer links */
+    --footer-link-hover: #f5d451; /* Amber for hover footer links */
+    --footer-link-active-color: #f1c40f; /* Darker amber for active footer links */
 
     --header-bg: #2c3e50; /* Deep navy blue for header background */
     --hero-gradient: linear-gradient(120deg, #f39c12, #f1c40f); /* Gradient of bright amber to yellow */

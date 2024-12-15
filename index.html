@@ -1294,16 +1294,20 @@
 
         </div>
     </section>
-    <section class="tw-relative tw-flex tw-w-full tw-min-h-[100vh] max-lg:tw-min-h-[80vh] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden">
-        <div class="tw-w-full tw-place-content-center tw-items-center tw-flex tw-flex-col tw-max-w-[900px] tw-gap-4 tw-p-4">
+    <section
+        class="tw-relative tw-flex tw-w-full tw-min-h-[100vh] max-lg:tw-min-h-[80vh] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden">
+        <div
+            class="tw-w-full tw-place-content-center tw-items-center tw-flex tw-flex-col tw-max-w-[900px] tw-gap-4 tw-p-4">
             <!-- Heading -->
             <h2 class="reveal-up tw-text-4xl max-lg:tw-text-3xl tw-text-center tw-leading-normal tw-lowercase">
                 <span class="tw-font-semibold">Too Busy for a Meeting? Share Your Thoughts!</span><br>
             </h2>
-    
-            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-4 tw-justify-center tw-rounded-lg dark:tw-bg-[#080808] tw-p-6 max-lg:tw-w-[450px]">
+
+            <div
+                class="tw-mt-4 tw-flex tw-flex-col tw-gap-4 tw-justify-center tw-rounded-lg dark:tw-bg-[#080808] tw-p-6 max-lg:tw-w-[450px]">
                 <!-- Left Side: Contact Form -->
-                <div class="reveal-up tw-flex tw-h-fit tw-w-[400px] tw-break-inside-avoid tw-flex-col tw-gap-4 tw-rounded-lg tw-bg-[#f6f7fb] dark:tw-bg-[#080808] tw-p-6 max-lg:tw-w-[350px]">
+                <div
+                    class="reveal-up tw-flex tw-h-fit tw-w-[400px] tw-break-inside-avoid tw-flex-col tw-gap-4 tw-rounded-lg tw-bg-[#f6f7fb] dark:tw-bg-[#080808] tw-p-6 max-lg:tw-w-[350px]">
                     <form id="contactForm" class="tw-flex tw-flex-col tw-gap-3">
                         <input type="text" name="name" placeholder="Your Name" required
                             class="tw-w-full tw-p-3 tw-rounded-lg tw-border tw-outline-none tw-border-gray-300 dark:tw-border-gray-600 tw-bg-white dark:tw-bg-[#1f2123] tw-text-gray-800 dark:tw-text-black" />
@@ -1315,7 +1319,7 @@
                             class="tw-w-full tw-p-3 tw-rounded-lg tw-border tw-outline-none tw-border-gray-300 dark:tw-border-gray-600 tw-bg-white dark:tw-bg-[#1f2123] tw-text-gray-800 dark:tw-text-black" />
                         <textarea name="message" placeholder="Your Message" rows="4" required
                             class="tw-w-full tw-p-3 tw-rounded-lg tw-border tw-outline-none tw-border-gray-300 dark:tw-border-gray-600 tw-bg-white dark:tw-bg-[#1f2123] tw-text-gray-800 dark:tw-text-black"></textarea>
-                        
+
                         <!-- Send Button with Loader -->
                         <button type="submit" id="sendButton"
                             class="reveal-up tw-group tw-shadow-xl btn tw-flex tw-gap-2 tw-mt-10">
@@ -1324,7 +1328,8 @@
                         </button>
                     </form>
                 </div>
-                <div class="reveal-up tw-flex tw-h-fit tw-w-[400px] tw-break-inside-avoid tw-flex-col tw-gap-4 tw-rounded-lg tw-border-[1px] tw-bg-[#f6f7fb] dark:tw-bg-[#080808] dark:tw-border-[#1f2123] tw-p-6 max-lg:tw-w-[350px] tw-justify-center tw-items-center">
+                <div
+                    class="reveal-up tw-flex tw-h-fit tw-w-[400px] tw-break-inside-avoid tw-flex-col tw-gap-4 tw-rounded-lg tw-border-[1px] tw-bg-[#f6f7fb] dark:tw-bg-[#080808] dark:tw-border-[#1f2123] tw-p-6 max-lg:tw-w-[350px] tw-justify-center tw-items-center">
                     <h2 class="tw-text-xl">Contact Us</h2>
                     <p class="tw-text-gray-700 dark:tw-text-gray-300">
                         <span class="tw-text-xl">✉</span> Email: edvatiq@gmail.com<br />
@@ -1333,9 +1338,20 @@
                 </div>
             </div>
         </div>
-    </section>    
-    
-    
+        <!-- Modal for success or error -->
+        <div id="modal"
+            class="tw-fixed tw-inset-0 tw-flex tw-justify-center tw-items-center tw-bg-gray-800 tw-bg-opacity-50 tw-hidden">
+            <div class="tw-bg-white tw-p-6 tw-rounded-lg tw-w-96 tw-shadow-xl tw-flex tw-flex-col tw-items-center">
+                <h2 id="modalTitle" class="tw-text-2xl tw-font-semibold"></h2>
+                <p id="modalMessage" class="tw-text-lg tw-mt-2"></p>
+                <button id="closeModal"
+                    class="tw-bg-blue-500 tw-text-white tw-px-4 tw-py-2 tw-rounded-lg tw-mt-4">Close</button>
+            </div>
+        </div>
+
+    </section>
+
+
     <footer class="tw-mt-auto tw-flex tw-flex-col tw-w-full tw-gap-4 tw-text-sm tw-pt-[5%] tw-pb-10 tw-px-[10%] 
                     tw-text-black dark:tw-text-white max-md:tw-flex-col">
         <div class="tw-flex max-md:tw-flex-col max-md:tw-gap-6 tw-gap-3 tw-w-full tw-place-content-around">

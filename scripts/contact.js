@@ -7,7 +7,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
 
     // Show loader
     btnText.style.display = "none";
-    btnLoader.classList.remove("tw-hidden");
+    btnLoader.style.display = "inline";
 
     const formData = {
         fullname: e.target.name.value,
@@ -25,20 +25,24 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
         });
 
         if (response.ok) {
-            showModal("Success!", "Your message was sent successfully!");
+            // Show success modal
+            showModal("Success!", "Your message was received, and we will get back to you shortly.");
             e.target.reset();
         } else {
+            // Show error modal for response errors
             showModal("Error!", "Something went wrong. Please try again.");
         }
     } catch (error) {
-        showModal("Error!", "Error sending message. Please try again later.");
+        // Show error modal for network or other exceptions
+        showModal("Network Error!", "Error sending message. Please try again later.");
     } finally {
-        // Hide loader
+        // Hide loader and reset button state
         btnText.style.display = "inline";
-        btnLoader.classList.add("tw-hidden");
+        btnLoader.style.display = "none";
     }
 });
 
+// Function to Show the Modal
 function showModal(title, message) {
     const modal = document.getElementById("modal");
     const modalTitle = document.getElementById("modalTitle");
@@ -47,11 +51,11 @@ function showModal(title, message) {
     modalTitle.textContent = title;
     modalMessage.textContent = message;
 
-    // Show the modal
-    modal.classList.remove("tw-hidden");
+    // Show modal (remove 'hidden' class)
+    modal.classList.remove("hidden");
 
     // Close the modal when the close button is clicked
-    document.getElementById("closeModal").addEventListener("click", () => {
-        modal.classList.add("tw-hidden");
-    });
+    document.getElementById("closeModal").onclick = () => {
+        modal.classList.add("hidden");
+    };
 }

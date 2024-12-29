@@ -7,8 +7,6 @@ let isHeaderCollapsed = window.innerWidth < RESPONSIVE_WIDTH
 const collapseBtn = document.getElementById("collapse-btn")
 const collapseHeaderItems = document.getElementById("collapsed-header-items")
 
-const navToggle = document.querySelector("#nav-dropdown-toggle-0")
-const navDropdown = document.querySelector("#nav-dropdown-list-0")
 
 // ------------- reveal section animations ---------------
 
@@ -81,13 +79,9 @@ function responsive() {
 
     if (window.innerWidth > RESPONSIVE_WIDTH) {
         collapseHeaderItems.style.height = ""
-        navToggle.addEventListener("mouseenter", openNavDropdown)
-        navToggle.addEventListener("mouseleave", navMouseLeave)
 
     } else {
         isHeaderCollapsed = true
-        navToggle.removeEventListener("mouseenter", openNavDropdown)
-        navToggle.removeEventListener("mouseleave", navMouseLeave)
     }
 }
 responsive()
@@ -128,8 +122,6 @@ function updateToggleModeBtn(){
 }
 
 
-navToggle.addEventListener("click", toggleNavDropdown)
-navDropdown.addEventListener("mouseleave", closeNavDropdown)
 
 function toggleNavDropdown(){
 

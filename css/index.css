@@ -56,7 +56,7 @@
     --dropdown-hover-color: #f1c40f; /* Amber text color for dropdown hover items */
 
     --faq-h-text: #ffffff; /* Bright white for FAQ headers */
-    --faq-content-text: #f1c40f; /* Bright yellow for FAQ content text */
+    --faq-content-text: #bdbdbd; /* Bright yellow for FAQ content text */
 
     --hr-color: #34495e; /* Slate gray for horizontal rules */
 
@@ -136,7 +136,7 @@ hr{
     opacity: 1;
 }
 
-.hero-section{
+.home{
     background-image: var(--hero-bg-img);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -191,9 +191,6 @@ hr{
     cursor: pointer;
 }
 
-.btn:hover{
-
-}
 
 .btn:disabled{
     cursor: default;

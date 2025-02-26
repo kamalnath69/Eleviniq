@@ -10,7 +10,7 @@
     --btn-bg: #f5d451; /* Bright amber for buttons, giving them energy */
     --btn-hover-bg: #f1c40f; /* Darker amber for button hover effect */
 
-    --header-link-hover: #2c3e50; /* Amber for hover links to match button */
+    --header-link-hover: # 2c3e50; /* Amber for hover links to match button */
     --header-link-hover-bg: #f5d451; /* Light yellow background for hover effect #e8e6db */
     --header-link-active-color: #f1c40f; /* Darker amber for active link color */
     
@@ -225,7 +225,6 @@ hr{
     background: #d7d7d7;
     border-radius: 25px;
 }
-
 
 /* ---------------- dropdown --------------------- */
 .dropdown {
